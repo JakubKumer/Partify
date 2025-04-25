@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <title>Polityka Prywatności – Imprezownia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      color: #333;
+    }
+    h1, h2 {
+      color: #5b2cff;
+    }
+  </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+          <div class="logo">Imprezownia</div>
+          
+          <nav class="nav" id="nav">
+            <ul class="nav-links">
+              <li><a href="polityka.html" class="active">Polityka Prywatności</a></li>
+              <li><a href="regulamin.html">Regulamin</a></li>
+            </ul>
+          </nav>
+      
+          <button class="burger" id="burger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+    </header>
+    <main class="container">
+      <h1>Privacy Policy for Partify</h1>
+
+      <h2>1. General Provisions</h2>
+      <p>1.1. This Privacy Policy outlines the rules for processing personal data of Partify app users.</p>
+      <p>1.2. The data controller is Partify.</p>
+      <p>1.3. Contact regarding data protection: <a href="mailto:imprezowniaapp@gmail.com">imprezowniaapp@gmail.com</a>.</p>
+    
+      <h2>2. What data do we collect?</h2>
+      <p>2.1. We may process the following user data:</p>
+      <ul>
+        <li>Full name</li>
+        <li>Age (age verification)</li>
+        <li>Email address and phone number</li>
+        <li>Profile photo</li>
+        <li>ID document data (user verification)</li>
+        <li>Reviews from other users</li>
+        <li>Payment data – only via secure gateways (RevenueCat, Google/Apple)</li>
+      </ul>
+    
+      <h2>3. Why do we process your data?</h2>
+      <p>3.1. Personal data is processed for the following purposes:</p>
+      <ul>
+        <li>Account creation and management</li>
+        <li>Identity verification and security assurance</li>
+        <li>Using app features (e.g. giving reviews)</li>
+        <li>Communicating with users about the app</li>
+        <li>Handling reports of regulation violations</li>
+        <li>Managing payments and subscriptions</li>
+      </ul>
+    
+      <h2>4. Who do we share your data with?</h2>
+      <p>4.1. Data is not sold or shared with third parties, unless:</p>
+      <ul>
+        <li>Required by law (e.g. law enforcement)</li>
+        <li>Necessary for user safety</li>
+        <li>User gives explicit consent</li>
+      </ul>
+    
+      <h2>5. How long do we store your data?</h2>
+      <p>5.1. Data is stored as long as necessary to provide services.</p>
+      <p>5.2. Some anonymized data (e.g. reviews) may remain after account deletion.</p>
+    
+      <h2>6. Your rights</h2>
+      <p>6.1. Every user has the right to:</p>
+      <ul>
+        <li>Access and correct their data</li>
+        <li>Delete their account and related data</li>
+        <li>Restrict data processing</li>
+        <li>File a complaint with the Data Protection Authority</li>
+      </ul>
+    
+      <h2>7. Data Security</h2>
+      <p>7.1. We use appropriate technical and organizational measures to protect your data.</p>
+      <p>7.2. Identity verification is carried out with the highest security standards.</p>
+    
+      <h2>8. Final Provisions</h2>
+      <p>8.1. The administrator may change this Privacy Policy – users will be notified.</p>
+      <p>8.2. Polish law and GDPR apply where this policy is silent.</p>
+    
+      <p><strong>Thank you for using Partify! 🎉</strong></p>
+    </main>
+  <script>
+    const burger = document.getElementById('burger');
+    const nav = document.getElementById('nav');
+
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('open');
+      nav.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
